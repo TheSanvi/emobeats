@@ -1,3 +1,4 @@
+import 'package:emobeats/RandomCircles.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -65,13 +66,7 @@ class _PromptScreenState extends State<PromptScreen> {
             children: [
               // First Expanded for various genres and submit button
               Expanded(
-                child: Text(
-                  'Mood',
-                  style: const TextStyle(
-                    color: Color(0xFFFFFFFF),
-
-                  ),
-                ),
+               child: RandomCircles(),
               ),
 
               // Sexpanded for various genres and submit button
