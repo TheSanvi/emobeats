@@ -18,13 +18,13 @@ class _RandomCirclesState extends State<RandomCircles> {
 
 
   final List<Map<String, String>> moodData = [
-    {'mood': 'Happy', 'image': 'assets/images/happy.png'},
-    {'mood': 'Heartbroken', 'image': 'assets/images/heartbroken.png'},
-    {'mood': 'Grateful', 'image': 'assets/images/grateful.png'},
-    {'mood': 'Relaxed', 'image': 'assets/images/relaxed.png'},
-    {'mood': 'Anxious', 'image': 'assets/images/anxious.png'},
-    {'mood': 'Romance', 'image': 'assets/images/romance.png'},
-    {'mood': 'Energetic', 'image': 'assets/images/energetic.png'},
+    {'mood': 'Happy', 'image': 'assets/images/Happy.jpg'},
+    {'mood': 'Heartbroken', 'image': 'assets/images/heartbroken.jpg'},
+    {'mood': 'Grateful', 'image': 'assets/images/grateful.jpg'},
+    {'mood': 'Relaxed', 'image': 'assets/images/relaxed.jpg'},
+    {'mood': 'Anxious', 'image': 'assets/images/anxious.jpg'},
+    {'mood': 'Romance', 'image': 'assets/images/romance.jpg'},
+    {'mood': 'Energetic', 'image': 'assets/images/energetic.jpg'},
   ];
 
   @override

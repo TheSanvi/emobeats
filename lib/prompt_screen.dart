@@ -28,6 +28,20 @@ class _PromptScreenState extends State<PromptScreen> {
     'Pop',
   ];
   final Set<String> _selectedGenres = {};
+
+
+  // Selected mood
+  String? _selectedMood;
+
+  // Selected mood image
+  String? _selectedMoodImage;
+
+  // Playlist
+  List<Map<String, String>> _playlist = [];
+
+  // Loading state
+  bool _isLoading = false;
+
   void _onGenreTap(String genre) {
     setState(() {
       if (_selectedGenres.contains(genre)) {
@@ -54,7 +68,7 @@ class _PromptScreenState extends State<PromptScreen> {
           ),
           image: DecorationImage(
             image: AssetImage(
-              "assets/images/background.png",
+              "assets/images/background.jpg",
             ),
             fit: BoxFit.cover,
           ),
@@ -66,7 +80,12 @@ class _PromptScreenState extends State<PromptScreen> {
             children: [
               // First Expanded for various genres and submit button
               Expanded(
-               child: RandomCircles(),
+               child: RandomCircles(
+                 onMoodSelected: (mood,image){
+
+                 },
+
+               ),
               ),
 
               // Sexpanded for various genres and submit button

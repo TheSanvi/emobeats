@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       decoration: const BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage(
-                            "assets/images/back.avif",
+                            "assets/images/audiomack.jpg",
                           ),
                           fit: BoxFit.cover,
                         ),
@@ -77,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               shape: BoxShape.circle,
                               image: DecorationImage(
                                 image: AssetImage(
-                                  "assets/images/back.avif",
+                                  "assets/images/emobeats,jpg",
                                 ),
                                 fit: BoxFit.cover,
                               ),
