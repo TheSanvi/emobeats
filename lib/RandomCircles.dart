@@ -78,6 +78,8 @@ class _RandomCirclesState extends State<RandomCircles> {
                       ? const Color(0xFF0000FF)
                       : const Color(0xFFFFCCCC).withOpacity(0.1);
 
+
+
                   return GestureDetector(
                     onTap: () {
                       _selectedMood.value =
